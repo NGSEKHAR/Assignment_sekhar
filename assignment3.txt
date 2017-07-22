@@ -1,0 +1,11 @@
+Required AWS Services:
+EC2 Instance:
+Launch EC2 instance in Private Subnet and Configure it and also configure Auto Scaling
+EBS:
+Attach EBS for EC2 Instance
+ELB:
+Setup Load Balancing for EC2 Instance.
+RDS: MongoDB and Oracle
+Setup MongoDB, Oracle Services and Configure Multi A-Z Deployment.
+Route 53:
+Configure Route 53 service for ELB which we setup for EC2 Instance.

@@ -1,0 +1,9 @@
+Steps to Build Docker Image and Run Containe
+1.Download Dockerfie and put in specific folder.
+2.Go to Dockerfie location.
+3.Run below command to build image. 
+	docker build -t docker-image .
+4.After build docker image we need to run it.
+5.Run below command to run container.
+	docker run -itd -p 7080:8080 --expose 8080 docker-image
+6.To test go to localhost:7080 and check tomcat home page is loaded or not.
